@@ -1,0 +1,152 @@
+//Sandstorm - Darude
+sandstorm
+136
+//Trying to recreate sheet music found at https://musescore.com/user/227096/scores/692051
+//wait for the first noise to stop
+//Here is the opening, trumpets //Tory said this should be muted
+//1/4.UA 3/4.UA 1.UA 3/4.UA 
+11/4.
+//This too
+//5/4.RB 3/4.RB 1.DY 3/4.DY 1/2.LX 
+17/4.
+3/4.UA 3/4.UA 1.UA 3/4.UA 1/2.RB
+3/4.UA 3/4.UA 1.UA 3/4.UA 1/2.RB
+
+//First repitition of that
+1.UA 3/4.UA 1.UA 3/4.UA 1/2.RB
+
+5/4.RB 3/4.RB 1.DY 3/4.DY 1/2.LX
+
+3/4.UA 3/4.UA 1.UA 3/4.UA 1/2.RB
+3/4.UA 3/4.UA 1.UA 3/4.UA 1/2.RB
+
+1.RX 1/2.RX 1/2.RX
+5.UA
+1.RX 1/2.RX 1/2.RX
+
+//WAIT FOR THE DROP
+7.RX 1/2.RX 1/2.RX
+1.DX 1/2.DX 1/2.DX
+1.LX 1/2.LX 1/2.LX
+1.UX 1/2.UX 1/2.UX
+1.RX 1/2.RX 1/2.RX
+1/4.DX 1/2.DX 1/2.DX
+1/4.LX 1/2.LX 1/2.LX
+1/4.UX 1/2.UX 1/2.UX
+1/4.RX 1/2.RX 1/2.RX
+
+//Oh yessss
+1.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 
+
+//We will alternate the following segments
+//This is REP 1
+1/2.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA 
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+//Test the rep - REP 2
+3/4.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 
+
+//REP 1 again + 1/4 wait
+3/4.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 1/2.LB
+1/2.UA 1/2.UA 
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+1/2.UA 1/2.UA 1/2.UA 
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+//Now the "chill" rep part 
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 
+//Chill Rep 1 - Lazy
+3/4.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.RX 1/2.RX 1/2.RX
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB 1/2.LB 
+//Another rep - getting faster
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.UA 1/2.UA 1/2.UA
+1/2.DY 1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.DY 1/2.DY 
+1/2.LB 1/2.LB
+
+1/2.DY 1/2.DB
+1/2.LY 1/2.LB
+1/2.DY 1/2.DB
+1/2.LY 1/2.LB
+1/2.DY 1/2.DB
+1/2.LY 1/2.LB
+1/2.DY 1/2.DB
+//Aaaand hand rest
