@@ -6,8 +6,11 @@ Beach
 // Tempo
 120 
 
+// Beats to travel from spawner to center
+2.5
+
 // Initial Wait
-2.
+1/2.
 
 // Score
 

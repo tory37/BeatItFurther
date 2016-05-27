@@ -435,7 +435,7 @@ public class LevelManager : MonoBehaviour {
 
         spawner.WakeUp();
 
-        yield return new WaitForSeconds(2f * (60f / (float)tempo));
+        yield return new WaitForSeconds( NoteSpawner.Instance.Loader.NoteSpeed * (60f / (float)tempo));
 
         source.Play();
     }

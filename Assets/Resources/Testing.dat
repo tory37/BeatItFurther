@@ -5,9 +5,11 @@ Testing
 // Tempo
 140
 
+// Beats to travel from spawner to center
+6
+
 // Inital Wait
 8.
 
 1.UA 1.UA 1.UA 1.UA 
-1.UA 1.UA 1.UA 1.UA
 1.UA 1.UA 1.UA 1.UA

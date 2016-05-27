@@ -15,11 +15,13 @@ public class SongDataLoader {
 
     public int Tempo { get { return tempo; } }
 
+	public float NoteSpeed { get { return noteSpeed; } }
+
     public string MP3Name { get; private set; }
 
     private Queue<NoteDataHolder> ReadNotes;
     private int tempo, beatsPerMeasure, fullBeatNoteType;
-    private float secsPerBeat;
+    private float noteSpeed,secsPerBeat;
 
     public SongDataLoader()
     {
@@ -126,6 +128,14 @@ public class SongDataLoader {
         tempo = int.Parse(readString);
 
         secsPerBeat = 60.0f / (float)tempo;
+
+		//this consumes all comments present before the note speed line
+		do
+		{
+			readString = sr.ReadLine();
+			lineNumber++;
+		} while ( readString.StartsWith( "//" ) || stringIsWhiteSpace( readString ) );
+		noteSpeed = float.Parse( readString );
 
         //beatsPerMeasure = int.Parse(sr.ReadLine());
         //fullBeatNoteType = int.Parse(sr.ReadLine());

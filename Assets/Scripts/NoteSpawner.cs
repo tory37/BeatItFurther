@@ -40,7 +40,23 @@ public class NoteSpawner : MonoBehaviour
     /// Used to store notes read from file
     /// </summary>
 
-    SongDataLoader loader;
+	public static NoteSpawner Instance
+	{
+		get
+		{
+			return instance;
+		}
+		set
+		{
+			if ( instance == null )
+				instance = value;
+			else
+				Destroy( value.gameObject );
+		}
+	}
+	private static NoteSpawner instance;
+
+    public SongDataLoader Loader {get; private set;}
 
     public string MP3Name { get; private set; }
     public float noteSpeed;
@@ -53,17 +69,22 @@ public class NoteSpawner : MonoBehaviour
 
     public int Load()
     {
-        loader = new SongDataLoader();
+        Loader = new SongDataLoader();
         //ReadNotes = new Queue<NoteDataHolder>();
         if (Application.isEditor)
-            loader.loadSong(@".\Assets\Resources\" + GameManager.Instance.GameplayFileName + ".dat");
+            Loader.loadSong(@".\Assets\Resources\" + GameManager.Instance.GameplayFileName + ".dat");
         else
-            loader.loadSong(@".\beatit_Data\Resources\" + GameManager.Instance.GameplayFileName + ".dat");
+            Loader.loadSong(@".\beatit_Data\Resources\" + GameManager.Instance.GameplayFileName + ".dat");
         
         MP3Name = GameManager.Instance.GameplayFileName + ".mp3";
-        noteSpeed = 5 / ( 2 * ( 60f / loader.Tempo));
-        return loader.Tempo;
+        noteSpeed = 5 / ( Loader.NoteSpeed * ( 60f / Loader.Tempo));
+        return Loader.Tempo;
     }
+
+	void Awake()
+	{
+		Instance = this;
+	}
 
     void Start()
     {
@@ -75,7 +96,7 @@ public class NoteSpawner : MonoBehaviour
 	{
 		running = true;
 		timeWaited = 0.0f;
-		NoteDataHolder initialWait = loader.getNextNote();
+		NoteDataHolder initialWait = Loader.getNextNote();
 		timeToWait = initialWait.noteLength;
 	}
 
@@ -127,9 +148,9 @@ public class NoteSpawner : MonoBehaviour
             //if it spawned, spawn it
             if(timeWaited >= timeToWait)
             {
-				if ( !loader.IsEmpty() )
+				if ( !Loader.IsEmpty() )
 				{
-					next = loader.getNextNote();
+					next = Loader.getNextNote();
 					if ( next.button == NoteButton.WAIT && next.direction == NoteDirection.NONE ) //we encountered a wait
 					{
 
